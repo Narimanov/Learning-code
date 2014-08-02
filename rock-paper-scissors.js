@@ -35,6 +35,8 @@ var compare = function(choice1, choice2) {
                 } else {
                         return ("rock wins");
                 }
+        } else {
+                console.log("I know you did something wrong. It may be just because you tried to troll me, so fuck you, user.")
         }
        
 };
