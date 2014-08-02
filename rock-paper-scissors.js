@@ -25,7 +25,7 @@ var compare = function(choice1, choice2) {
                 if (choice2 === "rock") {
                         return("paper wins.");
                 } else {
-                        return ("Scissors win");
+                        return ("Scissors wins");
                 }
         }
        
