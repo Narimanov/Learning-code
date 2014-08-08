@@ -1,0 +1,17 @@
+var userNumber = prompt("What's your lucky number?", 'Your number here');
+if(isNaN(userNumber) === true) {
+     console.log("Are you sure you typed a number?");
+    } else {
+switch(userNumber) {
+    case '7':
+        console.log("It's pretty popular. But after 'Boeing 777' disaster...");
+        break;
+    case '13':
+        console.log("One of my friends thinks 13 is lucky for him, too.");
+        break;
+    case '4':
+        console.log("It's my mom's lucky number, too.");
+        break;
+    default:
+         console.log("Really? I haven't heard " + userNumber + " is lucky. Maybe you're unique.");
+    }}
